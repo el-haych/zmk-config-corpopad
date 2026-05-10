@@ -1,0 +1,4 @@
+west:
+  command: /home/elh/KeyboardDev/ZMK/zmk/.venv/bin/west build -b nrf52dk -- -DZMK_CONFIG=/home/elh/KeyboardDev/ZMK/zmk/zephyr/zmk-config-shkb-xl
+  topdir: /home/elh/KeyboardDev/ZMK/zmk
+  version: 1.5.0
