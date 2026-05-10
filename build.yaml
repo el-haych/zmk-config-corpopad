@@ -19,7 +19,7 @@
 #
 ---
 include:
-  - board: nrf52840dk_nrf52840
+  - board: xiao_ble
     shield: corpopad
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     snippet: studio-rpc-usb-uart
