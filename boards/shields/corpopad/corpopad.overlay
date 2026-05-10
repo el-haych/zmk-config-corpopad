@@ -1,5 +1,5 @@
 #include "corpopad-layouts.dtsi"
-#include <dt-bindings/zmk/matrix_transform.h
+#include <dt-bindings/zmk/matrix_transform.h>
 
 / {
 
