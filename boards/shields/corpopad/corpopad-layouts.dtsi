@@ -5,16 +5,16 @@
         display-name = "Corpo Pad";
         transform = < &default_transform >;
         kscan = <&kscan0>;
-        keys 
-        = <&key_physical_attrs 100 100 0   0   0   0 0>
-        , <&key_physical_attrs 100 100 100 0   0   0 0>
-        , <&key_physical_attrs 100 100 200 0   0   0 0>
-        , <&key_physical_attrs 100 100 0   100 0   0 0>
-        , <&key_physical_attrs 100 100 100 100 0   0 0>
-        , <&key_physical_attrs 100 100 200 100 0   0 0>
-        , <&key_physical_attrs 100 100 0   0   200 0 0>
-        , <&key_physical_attrs 100 100 0   100 200 0 0>
-        , <&key_physical_attrs 100 100 0   200 200 0 0>
-          ;
+        keys  //                     w   h    x    y     rot    rx    ry
+            = <&key_physical_attrs 125 100    0    0       0     0     0>
+            , <&key_physical_attrs 125 100  125    0       0     0     0>
+            , <&key_physical_attrs 125 100  250    0       0     0     0>
+            , <&key_physical_attrs 125 100    0  100       0     0     0>
+            , <&key_physical_attrs 125 100  125  100       0     0     0>
+            , <&key_physical_attrs 125 100  250  100       0     0     0>
+            , <&key_physical_attrs 125 100    0  200       0     0     0>
+            , <&key_physical_attrs 125 100  125  200       0     0     0>
+            , <&key_physical_attrs 125 100  250  200       0     0     0>
+            ;
     };
 };
