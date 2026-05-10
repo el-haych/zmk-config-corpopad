@@ -20,6 +20,6 @@
 ---
 include:
   - board: xiao_ble
-    shield: tester-xiao
+    shield: tester_xiao
     #cmake-args: -DCONFIG_ZMK_STUDIO=y
     #snippet: studio-rpc-usb-uart
