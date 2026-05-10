@@ -13,7 +13,11 @@
         PMLE: PMLE {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
+<<<<<<< HEAD
             bindings = <&none &kp LS(P) &kp E &kp R &kp SPACE &kp M &kp Y &kp SPACE &kp L &kp A &kp S &kp T &kp SPACE &kp E &kp M &kp A &kp I &kp L &kp COMMA>;
+=======
+            bindings = <&kp LS(P) &kp E &kp R &kp SPACE &kp M &kp Y &kp SPACE &kp L &kp A &kp S &kp T &kp SPACE &kp E &kp M &kp A &kp I &kp L &kp COMMA>;
+>>>>>>> 3cb7a2e (Fixed Typos, Added Macros, Changed Layout, Flipped Pins)
             label = "PMLE";
         };
 
@@ -27,7 +31,11 @@
         CONTACT: CONTACT {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
+<<<<<<< HEAD
             bindings = <&kp LS(I) &kp F &kp SPACE &kp Y &kp O &kp U &kp SPACE &kp H &kp A &kp V &kp E &kp SPACE &kp A &kp N &kp Y &kp SPACE &kp Q &kp U &kp E &kp S &kp T &kp I &kp O &kp N &kp S &kp COMMA &kp SPACE &kp P &kp L &kp E &kp A &kp S &kp E &kp SPACE &kp C &kp O &kp N &kp T &kp A &kp C &kp T &kp SPACE &kp U &kp S &kp SPACE &kp A &kp T &kp SPACE;
+=======
+            bindings = <&kp LS(I) &kp F &kp SPACE &kp Y &kp O &kp U &kp SPACE &kp H &kp A &kp V &kp E &kp SPACE &kp A &kp N &kp Y &kp SPACE &kp Q &kp U &kp E &kp S &kp T &kp I &kp O &kp N &kp S &kp COMMA &kp SPACE &kp P &kp L &kp E &kp A &kp S &kp E &kp SPACE &kp C &kp O &kp N &kp T &kp A &kp C &kp T &kp SPACE &kp U &kp S &kp SPACE &kp A &kp T &kp SPACE>;
+>>>>>>> 3cb7a2e (Fixed Typos, Added Macros, Changed Layout, Flipped Pins)
             label = "CONTACT";
         };
     };
